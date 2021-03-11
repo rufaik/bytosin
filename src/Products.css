@@ -1,0 +1,153 @@
+.containertosin{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.row1{
+	display: flex;
+	flex-direction: row;
+	height: 90vh;
+	justify-content: center;
+	margin-top: 40px
+
+}
+
+.row2{
+	display: flex;
+	flex-direction: row;
+	height: 90vh;
+	justify-content: center;
+	margin-top: 70px;
+	margin-bottom: 100px;
+
+}
+ 
+ .products{
+ 	max-width: 110%;
+ }
+
+.box{
+/*	border-style: solid;
+	border-color: black;
+	border-width: 2px;*/
+	width: 40%;
+	position: relative;
+	overflow: hidden;
+/*	opacity: 0.5;*/
+}
+
+.box1{
+	margin-right:40px;
+	opacity: 0.9;
+}
+
+.box2{
+	margin-left: 40px;
+	opacity: 0.9;
+}
+
+.box3{
+	margin-right:40px;
+	opacity: 0.9;
+}
+
+.box4{
+	margin-left: 40px;
+	opacity: 0.9;
+/*	border-style: solid;
+	border-color: black;
+	border-width: 2px;*/
+}
+
+.box1:hover {
+	transition: opacity ease 200ms;
+  opacity: 1;
+}
+
+.box1:hover .contenttext{
+	    transition: opacity ease 200ms;
+	opacity: 0;
+}
+.contenttext{
+	position: absolute;
+    left: 0%;
+    top: 8%;
+    right: 0%;
+    bottom: auto;
+    display: block;
+    font-family: 'Archivo Black', sans-serif;
+    color: #000;
+    font-size: 1.8em;
+    text-align: center;
+    text-decoration: none;
+}
+.box2:hover {
+	transition: opacity ease 200ms;
+  opacity: 1;
+}
+
+.box2:hover .portraitstext{
+	    transition: opacity ease 200ms;
+	opacity: 0;
+}
+.portraitstext{
+	position: absolute;
+    left: 0%;
+    top: 8%;
+    right: 0%;
+    bottom: auto;
+    display: block;
+    font-family: 'Archivo Black', sans-serif;
+    color: #000;
+    font-size: 1.8em;
+    text-align: center;
+    text-decoration: none;
+}
+.box3:hover {
+	transition: opacity ease 200ms;
+  opacity: 1;
+}
+
+.box3:hover .familytext{
+	    transition: opacity ease 200ms;
+	opacity: 0;
+}
+.familytext{
+	position: absolute;
+    left: 0%;
+    top: 8%;
+    right: 0%;
+    bottom: auto;
+    display: block;
+    font-family: 'Archivo Black', sans-serif;
+    color: #000;
+    font-size: 1.8em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.box4:hover {
+	transition: opacity ease 200ms;
+  opacity: 1;
+}
+
+.box4:hover .productstext{
+	    transition: opacity ease 200ms;
+	opacity: 0;
+}
+.productstext{
+	position: absolute;
+    left: 0%;
+    top: 8%;
+    right: 0%;
+    bottom: auto;
+    display: block;
+    font-family: 'Archivo Black', sans-serif;
+    color: #000;
+    font-size: 1.8em;
+    text-align: center;
+    text-decoration: none;
+}
+
+

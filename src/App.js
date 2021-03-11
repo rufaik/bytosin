@@ -10,7 +10,7 @@ import './App.css';
 // import Adidas from './Adidas'
 // import Gold from './Gold'
 import Home from './Pages/Home'
-import Content from './Pages/Content'
+import Content from './Content'
 import Portraits from './Pages/Portraits'
 import Family from './Pages/Family'
 import Products from './Pages/Products'
@@ -21,7 +21,6 @@ import {
   Route,
   Switch,
   BrowserRouter,
-  HashRouter,
   Redirect
 } from "react-router-dom"
 // import {Animated} from "react-animated-css"
@@ -32,7 +31,7 @@ import {
 
 const App = () => {
   return(
-    <HashRouter>
+    <BrowserRouter>
   <Switch>
   
       <Route path ={"/Home"} component={Home} />
@@ -52,7 +51,7 @@ const App = () => {
  
    
 
-</HashRouter>
+</BrowserRouter>
      )      
           
       
