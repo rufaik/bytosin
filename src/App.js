@@ -21,6 +21,7 @@ import {
   Route,
   Switch,
   BrowserRouter,
+  HashRouter,
   Redirect
 } from "react-router-dom"
 // import {Animated} from "react-animated-css"
@@ -31,7 +32,7 @@ import {
 
 const App = () => {
   return(
-    <BrowserRouter>
+    <HashRouter>
   <Switch>
   
       <Route path ={"/Home"} component={Home} />
@@ -51,7 +52,7 @@ const App = () => {
  
    
 
-</BrowserRouter>
+</HashRouter>
      )      
           
       
