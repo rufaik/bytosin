@@ -1,0 +1,89 @@
+.containertosin{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.headerbox{
+	justify-content: center;
+	margin-bottom: 7em;
+	margin-top: 2em;
+}
+
+@media only screen and (max-width: 1100px) {
+.headerbox{
+	margin-bottom: 2em;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.headerbox{
+	margin-bottom: 2em;
+}
+}
+
+.header{
+    font-family: 'Archivo Black', sans-serif;
+    color: #000;
+    font-size: 2.25em;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.conimgbox{
+	margin: 2.6em 5.5em;
+	text-align: center;
+}
+
+ @media only screen and (max-width: 600px) {
+ .conimgbox{
+	margin: 0em 2.5em;
+	
+}
+}
+
+ .smallpic{
+ 	width: 110%;
+ }
+
+.space {
+	margin-top: 3em;
+}
+
+
+.arrow{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 3em 5.5em 8em 5.5em;	
+}
+
+@media only screen and (max-width: 600px) {
+.arrow{
+	padding: 3em 2.5em 8em 5.5em;	
+}
+}
+
+.subheader{
+    font-family: 'Archivo Black', sans-serif;
+    color: #000;
+    font-size: 2em;
+
+}
+
+@media only screen and (max-width: 600px) {
+.subheader{
+    font-size: 1.5em;
+
+}}
+
+.arrowspace{
+	margin-top: -2px;
+}
+
+
+@media only screen and (max-width: 600px) {
+.arrowspace{
+	margin-top: -6px;
+}}

@@ -1,0 +1,14 @@
+
+
+@font-face {
+  font-family: 'MyFont';
+  src: url(proxi/Proxima Nova Black.otf)
+  font-style: normal;
+}
+
+
+.gallery1{
+	padding-right: 27%;
+	font-family: 'MyFont';
+
+}
