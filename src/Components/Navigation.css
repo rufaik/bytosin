@@ -198,6 +198,7 @@ input{
  @media only screen and (max-width: 600px) {
  .overlay label{
  	right: 41px;
+ 	height: 37px;
  }
 }
 
