@@ -54,7 +54,7 @@ const Products = () => {
           <div className='subheaderport'>FAMILY</div></a>
         <a className="arrowport" href="/Content">
           <div className='subheaderport'>CONTENT</div>
-            <img className='arrowspaceport' alt='beauty' src="./right.png"/></a>
+            <img className='arrowspaceport rightarrow' alt='beauty' src="./right.png"/></a>
       </div>
     </div>
     </div>

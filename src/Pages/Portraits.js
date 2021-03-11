@@ -54,7 +54,7 @@ const Portraits = () => {
           <div className='subheaderport'>CONTENT</div></a>
         <a className="arrowport" href="/Family">
           <div className='subheaderport'>FAMILY</div>
-            <img className='arrowspaceport' alt='beauty' src="./right.png"/></a>
+            <img className='arrowspaceport rightarrow' alt='beauty' src="./right.png"/></a>
       </div>
     </div>
     </div>
