@@ -30,7 +30,7 @@ const Nav = () => {
   		
 
   		<input type="checkbox" id="op"></input>
-<div class="lower">
+<div class="lower1">
   <label for="op">
   <div className='wg1'></div>
   			<div className='wg1'></div>

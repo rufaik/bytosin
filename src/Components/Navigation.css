@@ -150,6 +150,12 @@ font-family: 'Diplomata', cursive;
 
  @media only screen and (max-width: 600px) {
  .lower{
+ 	width:3em;
+ }
+}
+
+@media only screen and (max-width: 600px) {
+ .lower1{
  	width:4em;
  }
 }
@@ -177,6 +183,10 @@ input{
 }*/
 
 .lower label:hover{
+  cursor:pointer;
+}
+
+.lower1 label:hover{
   cursor:pointer;
 }
 
@@ -258,11 +268,20 @@ input{
 	transition: opacity 0.5s, visibility 0s 0.5s;
 }
 
+.lower1~.overlay-hugeinc{
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+
 #op:checked~.overlay-hugeinc{
 	opacity: 1;
 	visibility: visible;
 	-webkit-transition: opacity 0.5s;
 	transition: opacity 0.5s;
+	position: fixed;
 }
 
 /*.overlay-hugeinc nav {
