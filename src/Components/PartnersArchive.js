@@ -16,7 +16,7 @@ const PartnersArchive = () => {
            <div className = 'wg2'> gallery </div>
           </a>
     <a href="/Contact">
-           <div className = 'wg2'> contact </div>
+           <div className = 'wg2'> info </div>
           </a>
     <a href="/Archive">
            <div className = 'wg2 focus'> archive </div>
