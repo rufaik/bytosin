@@ -13,11 +13,16 @@ const Partners = () => {
   	<div className = 'Pc1'>
   <div className = 'Pcontainer'>  
     <a href="/Home">
-           <div className = 'wg'> Gallery </div>
+           <div className = 'wg2 focus'> gallery </div>
           </a>
     <a href="/Contact">
-           <div> Contact </div>
+           <div className = 'wg2'> contact </div>
           </a>
+    <a href="/Archive">
+           <div className = 'wg2'> archive </div>
+          </a>
+
+
 
     
  </div>

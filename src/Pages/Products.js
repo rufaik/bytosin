@@ -40,7 +40,7 @@ const Products = () => {
     <Nav />
       <div className="containertosin">
         <div className='headerbox'>
-            <div className='header'>PRODUCTS</div>
+            <div className='header'>products</div>
         </div>
         <div className='conimgbox'>
             <img className = '' alt='beauty' src="./pics/R1.jpg"/>
@@ -51,10 +51,10 @@ const Products = () => {
        <div className='arrowbox'>
         <a className="arrowport" href="/Family">
             <img className='arrowspaceport' alt='beauty' src="./left.png"/>
-          <div className='subheaderport'>FAMILY</div></a>
+          <div className='subheaderport'>family</div></a>
         <a className="arrowport" href="/Content">
-          <div className='subheaderport'>CONTENT</div>
-            <img className='arrowspaceport rightarrow' alt='beauty' src="./right.png"/></a>
+          <div className='subheaderport'>content</div>
+            <img className='arrowspaceport' alt='beauty' src="./right.png"/></a>
       </div>
     </div>
     </div>

@@ -39,7 +39,7 @@ const Content = () => {
     <Nav />
       <div className="containertosin">
         <div className='headerbox'>
-            <div className='header'>CONTENT</div>
+            <div className='header'>content</div>
         </div>
         <div className='conimgbox'>
             <img className = '' alt='beauty' src="./7-min.jpg"/>
@@ -47,7 +47,7 @@ const Content = () => {
             <img className = 'space' alt='beauty' src="./4-min.jpg"/>
         </div>
         <a className="arrow" href="/Portraits">
-          <div className='subheader'>PORTRAITS</div>
+          <div className='subheader'>portraits</div>
             <img className='arrowspace' alt='beauty' src="./right.png"/></a>
     </div>
     </div>

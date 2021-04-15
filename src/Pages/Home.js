@@ -42,11 +42,11 @@ const Home = () => {
         <div className='row1'>
           <div className='box1 box'><a href="/Content">
             <img className = 'content imagebox' alt='friends' src="./1-min.jpg"/>
-            <div className='contenttext textcomp'>CONTENT</div></a>
+            <div className='contenttext'>content</div></a>
           </div>
           <div className='box2 box'><a href="/Portraits">
             <img className = 'portraits imagebox' alt='beauty' src="./6-min.jpg"/>
-            <div className='portraitstext textcomp'>PORTRAITS</div></a>
+            <div className='portraitstext'>portraits</div></a>
           </div>
         </div>
 
@@ -55,11 +55,11 @@ const Home = () => {
         
           <div className='box3 box'><a href="/Family">
             <img className = 'family imagebox' alt='mama' src="./11-min.jpg"/>
-            <div className='familytext textcomp'>FAMILY</div></a>
+            <div className='familytext'>family</div></a>
           </div> 
           <div className='box4 box'><a href="/Products">
             <img className = 'products imagebox' alt='towels' src="./image.jpg.png"/>
-            <div className='productstext textcomp'>PRODUCTS</div></a>
+            <div className='productstext'>products</div></a>
           </div>
         </div>
       </div>

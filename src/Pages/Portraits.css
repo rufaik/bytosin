@@ -4,11 +4,6 @@
 	justify-content: space-between;
 }
 
-@media only screen and (max-width: 600px) {
-.arrowbox{
-	padding: 2em;	
-}
-}
 
 .arrowport{
 	display: flex;
@@ -19,7 +14,7 @@
 
 @media only screen and (max-width: 600px) {
 .arrowport{
-	padding: 0em;	
+	padding: 3em 2.7em 8em 2.9em;	
 }
 }
 
@@ -33,12 +28,12 @@
 @media only screen and (max-width: 600px) {
 .subheaderport{
         font-size: 1em;
-    padding-top: 0.3em;
+    padding-top: 0.2em;
 
 }}
 
 .arrowspaceport{
-	margin-top: -6px;
+	margin-top: -2px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -51,9 +46,4 @@
 @media only screen and (max-width: 600px) {
 .arrowspaceport{
 	margin-top: -6px;
-}}
-
-@media only screen and (max-width: 600px) {
-.rightarrow{
-	margin-top: -8px;
 }}

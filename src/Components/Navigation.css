@@ -16,6 +16,23 @@
     padding-right: 6vw;
 }
 
+.navvyarc{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 2.8vw;
+    padding-bottom: 2.8vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+ @media only screen and (max-width: 600px) {
+ .navvy{
+ 	padding-top: 5.8vw;
+    padding-left: 1.5em;
+ }
+}
+
  @media only screen and (max-width: 1100px) {
  .navvy{
  	padding-top: 5.8vw;
@@ -24,14 +41,20 @@
  }
 }
 
- @media only screen and (max-width: 600px) {
- .navvy{
- 	padding-top: 8.8vw;
-    padding-left: 1.5em;
+ @media only screen and (max-width: 1100px) {
+ .navvyarc{
+ 	padding-top: 5.8vw;
+    padding-bottom: 0vw;
+    padding-left: 8vw;
  }
 }
-
-
+ @media only screen and (max-width: 600px) {
+ .navvyarc{
+ 	padding-top: 5.8vw;
+    padding-left: 0em;
+    padding-right: 0em;
+ }
+}
 
 .menubuttons{
 	display: flex;
@@ -65,36 +88,23 @@
 	width: 30px;
 }
 
-
- @media only screen and (max-width: 600px) {
- .wg1{
-
-	border-width: 0.7px;
-	margin-bottom: 9px;
-	line-height: 8px;
-	width: 35px;
- }
-}
-
 .brand {
 	font-size: calc((2 - 1) * 1.2vw + 1rem);
 	font-family: 'Archivo Black', sans-serif;
 }
 
+ 
  @media only screen and (max-width: 1100px) {
  .brand{
  	padding-top: 0.3em;
  }
 }
-
- @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
  .brand{
- 	padding-top: 0em;
-    padding-left: 0.9em;
-    margin-bottom: 1em;
+ 	padding-top: 0.6em;
+    padding-left: 1.5em;
  }
 }
-
 
 
 
@@ -138,13 +148,11 @@ font-family: 'Diplomata', cursive;
   position: relative;
 }
 
-
  @media only screen and (max-width: 600px) {
  .lower{
- 	    margin-top: 0.3em;
+ 	width:4em;
  }
 }
-
 
 label {
 	font-family: 'Playfair Display', serif;
@@ -198,7 +206,6 @@ input{
  @media only screen and (max-width: 600px) {
  .overlay label{
  	right: 41px;
- 	height: 37px;
  }
 }
 

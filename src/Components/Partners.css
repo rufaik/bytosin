@@ -6,7 +6,7 @@ html, body {
 
 
 .wg{
-	border-bottom: solid;
+	border-bottom: solid; 
 	border-color: white;
 	border-width: 2px;
 	margin-bottom: 80px;
@@ -19,8 +19,21 @@ html, body {
 	
 }
 
+.wg2{
+	
+	margin-bottom: 80px;
+}
+
+
 .con{
 	margin-bottom: 80px;
+}
+
+.focus{
+border-bottom: solid; 
+	border-color: black;
+	border-width: 2px;
+
 }
 
 .Pcontainer{
@@ -35,11 +48,16 @@ html, body {
     font-size: 3.5em;
 }
 
- @media only screen and (max-width: 600px) {
- .Pcontainer {
- 	margin: 4em auto;
- 	font-size: 2.5em;
- }
+.Pcontainerarc{
+	margin: 3.5em auto 4.5em auto;
+    height: 100vh;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Archivo Black', sans-serif;
+    line-height: 1.5em;
+    font-size: 3.5em;
 }
 
 .Pitem{

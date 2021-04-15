@@ -41,7 +41,7 @@ const Family = () => {
     <Nav />
       <div className="containertosin">
         <div className='headerbox'>
-            <div className='header'>FAMILY</div>
+            <div className='header'>family</div>
         </div>
         <div className='conimgbox'>
             <img className = '' alt='beauty' src="./pics/F1.jpg"/>
@@ -51,11 +51,11 @@ const Family = () => {
         </div>
        <div className='arrowbox'>
         <a className="arrowport" href="/Portraits">
-            <img className='arrowspaceport' alt='beauty' src="./left1.png"/>
-          <div className='subheaderport'>PORTRAITS</div></a>
+            <img className='arrowspaceport' alt='beauty' src="./left.png"/>
+          <div className='subheaderport'>portraits</div></a>
         <a className="arrowport" href="/Products">
-          <div className='subheaderport'>PRODUCTS</div>
-            <img className='arrowspaceport rightarrow' alt='beauty' src="./right1.png"/></a>
+          <div className='subheaderport'>products</div>
+            <img className='arrowspaceport' alt='beauty' src="./right.png"/></a>
       </div>
     </div>
     </div>
