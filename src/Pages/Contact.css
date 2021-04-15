@@ -19,6 +19,7 @@ p{
 .contacttext{
 margin-top: 40px;
  margin-left: 28%;
+ letter-spacing: 1px;
 }
 
 .instatext{
@@ -27,3 +28,25 @@ margin-top: 40px;
 	margin-bottom: 6em;
 	text-decoration: underline;
 }
+
+
+@media screen and (max-width: 700px) {
+.contacttext {
+     margin-top: 0px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 11px
+
+    }}
+
+    @media screen and (max-width: 700px) {
+p{
+	text-align: center;
+
+    }}
