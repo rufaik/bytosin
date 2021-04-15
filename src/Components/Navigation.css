@@ -82,7 +82,7 @@
 .wg1{
 	border-bottom: solid;
 	border-color: black;
-	border-width: 0.7px;
+	border-width: 0.9px;
 	margin-bottom: 8px;
 	line-height: 10px;
 	width: 30px;
@@ -106,7 +106,7 @@
 @media only screen and (max-width: 600px) {
  .brand{
  	padding-top: 0em;
-    padding-left: 2em;
+    padding-left: 1em;
  }
 }
 
