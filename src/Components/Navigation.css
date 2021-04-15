@@ -82,8 +82,8 @@
 .wg1{
 	border-bottom: solid;
 	border-color: black;
-	border-width: 1px;
-	margin-bottom: 11px;
+	border-width: 0.7px;
+	margin-bottom: 8px;
 	line-height: 10px;
 	width: 30px;
 }
@@ -93,6 +93,10 @@
 	font-family: 'Archivo Black', sans-serif;
 }
 
+.brand1 {
+	font-size: calc((2 - 1) * 1.2vw + 1rem);
+	font-family: 'Archivo Black', sans-serif;
+}
  
  @media only screen and (max-width: 1100px) {
  .brand{
@@ -102,11 +106,16 @@
 @media only screen and (max-width: 600px) {
  .brand{
  	padding-top: 0em;
-    padding-left: 0em;
+    padding-left: 2em;
  }
 }
 
-
+@media only screen and (max-width: 600px) {
+ .brand1{
+ 	padding-top: 0em;
+    padding-left: 0.5em;
+ }
+}
 
 
 
