@@ -8,6 +8,12 @@
 	margin: 8em auto 0 auto;
 }
 
+@media screen and (max-width: 700px) {
+.contactbox{
+	width: 57%;
+
+    }}
+
 
 p{
 	text-align: left;

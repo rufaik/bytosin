@@ -97,6 +97,10 @@
 	font-size: calc((2 - 1) * 1.2vw + 1rem);
 	font-family: 'Archivo Black', sans-serif;
 }
+.brand2 {
+	font-size: calc((2 - 1) * 1.2vw + 1rem);
+	font-family: 'Archivo Black', sans-serif;
+}
  
  @media only screen and (max-width: 1100px) {
  .brand{
@@ -107,6 +111,13 @@
  .brand{
  	padding-top: 0em;
     padding-left: 1em;
+ }
+}
+
+@media only screen and (max-width: 600px) {
+ .brand2{
+ 	padding-top: 0em;
+    padding-left: 0em;
  }
 }
 
@@ -160,12 +171,14 @@ font-family: 'Diplomata', cursive;
  @media only screen and (max-width: 600px) {
  .lower{
  	width:3em;
+ 	margin-top:4px 
  }
 }
 
 @media only screen and (max-width: 600px) {
  .lower1{
  	width:4em;
+ 	margin-top:4px 
  }
 }
 
