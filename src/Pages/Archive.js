@@ -107,9 +107,9 @@ export default class Archive extends React.Component {
             <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A15.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:14 })}/></div>
         </div>
         <div className='arcrow'>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A16.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:12 })}/></div>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A17.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:13 })}/></div>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A18.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:14 })}/></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A16.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:15 })}/></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A17.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:16 })}/></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A18.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:17 })}/></div>
         </div>
        <div className='arrowbox'>
     
