@@ -62,7 +62,7 @@ const Home = () => {
             <div className='productstext'>Products</div></a>
           </div>
         </div>
-         <p style={{textAlign:"left", marginLeft: "6.5em", marginBottom: "6.5em"}}>© 2021 Tosin Alabi</p>
+         <p className='copyw'>© 2021 by tosin</p>
       </div>
     </div>
   )
