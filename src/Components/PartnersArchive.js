@@ -12,11 +12,11 @@ const PartnersArchive = () => {
   return (
   	<div className = 'Pc1'>
   <div className = 'Pcontainerarc'>  
-    <a href="/Home">
+    <a href="/Content">
            <div className = 'wg2'> gallery </div>
           </a>
     <a href="/Contact">
-           <div className = 'wg2'> info </div>
+           <div className = 'wg2'> contact </div>
           </a>
     <a href="/Archive">
            <div className = 'wg2 focus'> archive </div>

@@ -39,21 +39,24 @@ import 'react-image-lightbox/style.css';
 
 
 const images = [
-    './pics/R2.jpg',
-    './pics/R3.jpg',
-    './pics/R3.jpg',
-    './pics/R2.jpg',
-    './pics/R3.jpg',
-    './pics/R3.jpg',
-    './pics/R2.jpg',
-    './pics/R3.jpg',
-    './pics/R3.jpg',
-    './pics/R2.jpg',
-    './pics/R3.jpg',
-    './pics/R3.jpg',
-    './pics/R2.jpg',
-    './pics/R3.jpg',
-    './pics/R3.jpg'
+    './pix/A1.jpg',
+    './pix/A2.jpg',
+    './pix/A3.jpg',
+    './pix/A4.jpg',
+    './pix/A5.png',
+    './pix/A6.jpg',
+    './pix/A7.jpg',
+    './pix/A8.jpg',
+    './pix/A9.jpg',
+    './pix/A10.jpg',
+    './pix/A11.jpg',
+    './pix/A12.jpg',
+    './pix/A13.jpg',
+    './pix/A14.jpg',
+    './pix/A15.jpg',
+    './pix/A16.jpg',
+    './pix/A17.jpg',
+    './pix/A18.jpg'
 
  ];
 
@@ -79,29 +82,34 @@ export default class Archive extends React.Component {
             <div className='header'>archive</div>
         </div>
         <div className='arcrow'>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R2.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:0 })} /></div>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R3.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:1 })} /></div>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R3.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:2 })} /></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A1.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:0 })} /></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A2.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:1 })} /></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A3.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:2 })} /></div>
         </div>
         <div className='arcrow'>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R2.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:3 })} /></div>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R3.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:4 })} /></div>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R3.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:5 })} /></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A4.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:3 })} /></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A5.png" onClick={() => this.setState({ isOpen: true, photoIndex:4 })} /></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A6.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:5 })} /></div>
         </div>
         <div className='arcrow'>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R2.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:6 })}/></div>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R3.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:7 })}/></div>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R3.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:8 })}/></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A7.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:6 })}/></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A8.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:7 })}/></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A9.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:8 })}/></div>
         </div>
         <div className='arcrow'>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R2.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:9 })}/></div>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R3.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:10 })}/></div>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R3.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:11 })}/></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A10.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:9 })}/></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A11.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:10 })}/></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A12.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:11 })}/></div>
         </div>
         <div className='arcrow'>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R2.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:12 })}/></div>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R3.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:13 })}/></div>
-            <div className = 'image'><img className = 'basic' alt='beauty' src="./pics/R3.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:14 })}/></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A13.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:12 })}/></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A14.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:13 })}/></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A15.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:14 })}/></div>
+        </div>
+        <div className='arcrow'>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A16.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:12 })}/></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A17.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:13 })}/></div>
+            <div className = 'image'><img className = 'basic' alt='beauty' src="./pix/A18.jpg" onClick={() => this.setState({ isOpen: true, photoIndex:14 })}/></div>
         </div>
        <div className='arrowbox'>
     

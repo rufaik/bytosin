@@ -47,26 +47,19 @@ const Contact = () => {
         <div className='contacttext'>
              <p><b> tosin.</b> </p>
 
-
-                <p>creative photographer</p>
-
                 <p>the fro is real</p>
 
                 <p>you will find her in the gallery, theatre or charity shop</p>
 
                 <p>she has a thing for glitter socks</p>
 
-                <p>dance breaks in her room or on the streets</p>
-
-                <p>her fave colour is black but if black is the absence of colour then it's forest green</p>
-
-                <p>the moon is one of her fave thing to gaze at</p>
+                <p>the moon is one of her fave things to gaze at</p>
 
                 <p>streets call her quirky or bougie but you can decide when you meet her</p>
 
               <p><b> enquires/bookings:</b> tosinalabi@me.com</p>
 
-              <p><b> please note:</b> All photos are taken on a Google Pixel 4.</p>
+              <p><b> please note:</b> all photos are taken on a Google Pixel 4.</p>
         </div>
         <a href="https://instagram.com/tosinalabi?igshid=zz626ehwo1lz">
              <p className='instatext'> @tosinalabi</p>

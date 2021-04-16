@@ -42,9 +42,10 @@ const Content = () => {
             <div className='header'>content</div>
         </div>
         <div className='conimgbox'>
-            <img className = '' alt='beauty' src="./7-min.jpg"/>
-            <img className = 'space' alt='beauty' src="./chair.jpg"/>
-            <img className = 'space' alt='beauty' src="./4-min.jpg"/>
+            <img className = '' alt='beauty' src="./pix/C1.jpg"/>
+            <img className = 'space' alt='beauty' src="./pix/C2.jpg"/>
+            <img className = 'space' alt='beauty' src="./pix/C3.jpg"/>
+            <img className = 'space' alt='beauty' src="./pix/C4.jpg"/>
         </div>
         <a className="arrow" href="/Portraits">
           <div className='subheader'>portraits</div>

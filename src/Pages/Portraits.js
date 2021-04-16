@@ -43,10 +43,10 @@ const Portraits = () => {
             <div className='header'>portraits</div>
         </div>
         <div className='conimgbox'>
-            <img className = '' alt='beauty' src="./pics/P1.jpg"/>
-            <img className = 'space' alt='beauty' src="./pics/p2.jpg"/>
-            <img className = 'space smallpic' alt='beauty' src="./pics/p3b.jpg"/>
-            <img className = 'space smallpic' alt='beauty' src="./pics/P4.jpg"/>
+            <img className = '' alt='beauty' src="./pix/P1.jpg"/>
+            <img className = 'space' alt='beauty' src="./pix/P2.jpg"/>
+            <img className = 'space smallpic' alt='beauty' src="./pix/P3.jpg"/>
+            <img className = 'space smallpic' alt='beauty' src="./pix/P4.jpg"/>
         </div>
        <div className='arrowbox'>
         <a className="arrowport" href="/Content">

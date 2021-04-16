@@ -44,10 +44,10 @@ const Family = () => {
             <div className='header'>family</div>
         </div>
         <div className='conimgbox'>
-            <img className = '' alt='beauty' src="./pics/F1.jpg"/>
-            <img className = 'space' alt='beauty' src="./pics/F2.jpeg"/>
-            <img className = 'space smallpic' alt='beauty' src="./pics/F3.jpg"/>
-            <img className = 'space' alt='beauty' src="./pics/F4.jpeg"/>
+            <img className = '' alt='beauty' src="./pix/F1.jpg"/>
+            <img className = 'space' alt='beauty' src="./pix/F2.jpeg"/>
+            <img className = 'space smallpic' alt='beauty' src="./pix/F3.jpg"/>
+            <img className = 'space' alt='beauty' src="./pix/F4.jpeg"/>
         </div>
        <div className='arrowbox'>
         <a className="arrowport" href="/Portraits">

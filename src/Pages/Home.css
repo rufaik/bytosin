@@ -150,7 +150,7 @@
 .contenttext{
 	position: absolute;
     left: 0%;
-    top: 8%;
+    top: 5%;
     right: 0%;
     bottom: auto;
     display: block;
@@ -172,7 +172,7 @@
 .portraitstext{
 	position: absolute;
     left: 0%;
-    top: 8%;
+    top: 5%;
     right: 0%;
     bottom: auto;
     display: block;
@@ -194,7 +194,7 @@
 .familytext{
 	position: absolute;
     left: 0%;
-    top: 6%;
+    top: 5%;
     right: 0%;
     bottom: auto;
     display: block;
@@ -217,7 +217,7 @@
 .productstext{
 	position: absolute;
     left: 0%;
-    top: 6%;
+    top: 5%;
     right: 0%;
     bottom: auto;
     display: block;
