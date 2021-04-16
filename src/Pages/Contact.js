@@ -56,10 +56,13 @@ const Contact = () => {
                 <p>the moon is one of her fave things to gaze at</p>
 
                 <p>streets call her quirky or bougie but you can decide when you meet her</p>
+                <p></p>
 
-              <p><b> enquires/bookings:</b> tosinalabi@me.com</p>
+              <p><b>Contact</b></p>
 
-              <p><b> please note:</b> all photos are taken on a Google Pixel 4.</p>
+              <p><b style={{textDecoration:"none"}}>E:</b> <span style={{textDecoration:"underline"}} >tosinalabi@me.com</span></p>
+
+              <p><b>Please note:</b> all photos are taken on a Google Pixel 4.</p>
         </div>
         <a href="https://instagram.com/tosinalabi?igshid=zz626ehwo1lz">
              <p className='instatext'> @tosinalabi</p>

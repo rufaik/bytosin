@@ -48,7 +48,7 @@ const Content = () => {
             <img className = 'space' alt='beauty' src="./pix/C2.jpg"/>
         </div>
         <a className="arrow" href="/Portraits">
-          <div className='subheader'>portraits</div>
+          <div className='subheader'>Portraits</div>
             <img className='arrowspace' alt='beauty' src="./right.png"/></a>
     </div>
     </div>

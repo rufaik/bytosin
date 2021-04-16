@@ -52,9 +52,9 @@ const Family = () => {
        <div className='arrowbox'>
         <a className="arrowport" href="/Portraits">
             <img className='arrowspaceport' alt='beauty' src="./left.png"/>
-          <div className='subheaderport'>portraits</div></a>
+          <div className='subheaderport'>Portraits</div></a>
         <a className="arrowport" href="/Products">
-          <div className='subheaderport'>products</div>
+          <div className='subheaderport'>Products</div>
             <img className='arrowspaceport' alt='beauty' src="./right.png"/></a>
       </div>
     </div>
