@@ -40,7 +40,7 @@ const Products = () => {
     <Nav />
       <div className="containertosin">
         <div className='headerbox'>
-            <div className='header'>products</div>
+            <div className='header'>Products</div>
         </div>
         <div className='conimgbox'>
             <img className = '' alt='beauty' src="./pix/R1.jpg"/>

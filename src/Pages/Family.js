@@ -41,7 +41,7 @@ const Family = () => {
     <Nav />
       <div className="containertosin">
         <div className='headerbox'>
-            <div className='header'>family</div>
+            <div className='header'>Family</div>
         </div>
         <div className='conimgbox'>
             <img className = '' alt='beauty' src="./pix/F1.jpg"/>

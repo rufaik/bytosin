@@ -39,13 +39,13 @@ const Content = () => {
     <Nav />
       <div className="containertosin">
         <div className='headerbox'>
-            <div className='header'>content</div>
+            <div className='header'>Content</div>
         </div>
         <div className='conimgbox'>
             <img className = '' alt='beauty' src="./pix/C1.jpg"/>
-            <img className = 'space' alt='beauty' src="./pix/C2.jpg"/>
             <img className = 'space' alt='beauty' src="./pix/C3.jpg"/>
             <img className = 'space' alt='beauty' src="./pix/C4.jpg"/>
+            <img className = 'space' alt='beauty' src="./pix/C2.jpg"/>
         </div>
         <a className="arrow" href="/Portraits">
           <div className='subheader'>portraits</div>
