@@ -1,0 +1,143 @@
+html, body {
+  height: 100%;
+/*  overflow: visible;*/
+    background-color: white;
+}
+
+
+.wg{
+	border-bottom: solid;
+	border-color: white;
+	border-width: 2px;
+	margin-bottom: 80px;
+}
+
+.wgcon{
+	border-bottom: solid;
+	border-color: white;
+	border-width: 2px;
+	
+}
+
+.con{
+	margin-bottom: 80px;
+}
+
+.Pcontainer{
+	margin: 4.5em auto;
+    height: 100vh;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Archivo Black', sans-serif;
+    line-height: 1.5em;
+    font-size: 3.5em;
+}
+
+ @media only screen and (max-width: 600px) {
+ .Pcontainer {
+ 	margin: 4em auto;
+ 	font-size: 2.5em;
+ }
+}
+
+.Pitem{
+	width:100%;
+	height:50%;
+	font-family: 'Nerko One', cursive;
+	font-size: 20vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left:  50px;
+}
+
+.first{
+	height: 100%;
+	width: 50%
+}
+
+.iblue
+{
+	border-color: #00f9ff;
+	border-width: 10px;
+}
+
+
+.ipink{
+	border-color: #ff00cc;
+	border-width: 10px;
+}
+
+.igreen{
+	border-color: #39FF14;
+	border-width: 10px;
+}
+
+.iyellow{
+	border-color: #E0E722;
+	border-width: 10px;
+}
+/*HOVER STUFF*/
+
+/*.iblue:hover
+{
+	color: #00f9ff;
+}
+
+
+.ipink:hover{
+	color: #ff00cc;
+}
+
+.igreen:hover{
+	color: #39FF14;
+}
+
+.iyellow:hover{
+	color: #E0E722;
+}*/
+
+.Pitem:hover .Pitem {
+	padding-right: 100px
+}
+
+
+
+.description {
+	height: 0;
+	opacity: 0;
+	visibility: hidden;
+	margin: 5px;
+	line-height: 1.5em;
+	
+}
+
+.Pitem:hover .description{
+	height: 3em;
+	opacity: 1;
+	visibility: visible;
+	transition: all .2s ease;
+	margin-right: 100px
+}
+
+
+a{
+	color: black;
+	text-decoration: none
+}
+
+a:hover {
+  color: black;
+  text-decoration: none
+}
+
+
+@media screen and (max-width: 700px) {
+  .Pc1 {
+     height: 42em;
+ 
+   }}
+   
+

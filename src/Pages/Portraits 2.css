@@ -1,0 +1,59 @@
+.arrowbox{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+.arrowbox{
+	padding: 2em;	
+}
+}
+
+.arrowport{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 3em 5.5em 8em 5.5em;	
+}
+
+@media only screen and (max-width: 600px) {
+.arrowport{
+	padding: 0em;	
+}
+}
+
+.subheaderport{
+    font-family: 'Archivo Black', sans-serif;
+    color: #000;
+    font-size: 2em;
+
+}
+
+@media only screen and (max-width: 600px) {
+.subheaderport{
+        font-size: 1em;
+    padding-top: 0.3em;
+
+}}
+
+.arrowspaceport{
+	margin-top: -6px;
+}
+
+@media only screen and (max-width: 600px) {
+.arrowspaceport{
+	width:auto;
+}}
+
+
+
+@media only screen and (max-width: 600px) {
+.arrowspaceport{
+	margin-top: -6px;
+}}
+
+@media only screen and (max-width: 600px) {
+.rightarrow{
+	margin-top: -8px;
+}}
