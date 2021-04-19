@@ -45,25 +45,15 @@ const Contact = () => {
 
         </div>
         <div className='contacttext'>
-             <p><b>tosin.</b> </p>
+             <p><b> Tosin.</b> </p>
 
-                <p>the fro is real</p>
+              <p>Creative Photographer.</p>
 
-                <p>you can catch me at the gallery, theatre or charity shop</p>
+              <p>A soul who enjoys taking pictures of everything and anything, capturing moments that last forever.</p>
 
-                <p>have a thing for glitter socks</p>
+              <p><b> Enquires/Bookings:</b> tosinalabi@me.com</p>
 
-                <p>the moon is an absolute fave</p>
-
-                <p>my mates either call me quirky or bougie but you can decide when you meet me</p>
-                <p></p>
-
-
-              <p><b>Contact</b></p>
-
-              <p><b style={{textDecoration:"none"}}>E:</b> <span style={{textDecoration:"underline"}} >tosinalabi@me.com</span></p>
-
-              <p><b>please note:</b> all photos are taken on a Google Pixel 4.</p>
+              <p><b> Please note:</b> All photos are taken on a Google Pixel 4.</p>
         </div>
         <a href="https://instagram.com/tosinalabi?igshid=zz626ehwo1lz">
              <p className='instatext'> @tosinalabi</p>

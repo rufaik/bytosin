@@ -1,0 +1,55 @@
+.react-slideshow-container{
+	height: 100vh;
+	width: 100vw;
+	overflow:hidden;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.react-slideshow-container .default-nav:first-of-type {
+
+    visibility: hidden;
+}
+
+.react-slideshow-container .default-nav:last-of-type {
+    visibility: hidden;
+}
+
+.slide-image{
+	width:120vw;
+	height:150%;
+}
+
+.splashFade{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	opacity: 0.2;
+	left: 0%;
+	right: 0%;
+	margin: 0 auto;
+	z-index: 2;
+
+}
+
+.splashTitle{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	margin: 45vh auto 0 auto;
+	color: black;
+	z-index: 3;
+	text-align: center;
+	font-size: calc((2 - 1) * 1.2vw + 2rem);
+	font-family: 'Archivo Black', sans-serif;
+}
+.rela{
+	position: relative;
+}
+
+.imgPos{
+	align-content: 
+}

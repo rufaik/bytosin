@@ -15,8 +15,6 @@ import Portraits from './Pages/Portraits'
 import Family from './Pages/Family'
 import Products from './Pages/Products'
 import Contact from './Pages/Contact'
-import Archive from './Pages/Archive'
-import Splash from './Pages/Splash'
 // import ThankYou from './ThankYou'
 // import Work from './Work'
 import {
@@ -43,8 +41,6 @@ const App = () => {
       <Route exact path ={"/Family"} component={Family} />
       <Route exact path ={"/Products"} component={Products} />
       <Route exact path ={"/Contact"} component={Contact} />
-      <Route exact path ={"/Archive"} component={Archive} />
-      <Route exact path ={"/Splash"} component={Splash} />
      
 
     
