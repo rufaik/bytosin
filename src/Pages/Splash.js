@@ -11,6 +11,17 @@ const Splash = () => {
   './pix/A2.jpg'
   ];
 
+  setTimeout(function(){
+        window.location.href = '/Home';
+    }, 15000);
+
+// const Change = () => {
+//   setTimeout(() => {
+//     window.location.href = '/Home';
+//     }, 5000);
+//   }
+
+
   return (
     <div className="rela">
       <div className="slide-container">
