@@ -36,18 +36,18 @@ const Splash = () => {
         <Fade>
 
           <div className="each-fade">
-            <div>
-              <img className="slide-image" src={fadeImages[0]} />
+            <div className="slide1">
+              <img className="slide-image" src='' />
             </div>
           </div>
           <div className="each-fade">
-            <div>
-              <img className="slide-image" src={fadeImages[1]} />
+            <div className="slide2">
+              <img className="slide-image" src='' />
             </div>
           </div>
           <div className="each-fade">
-            <div>
-              <img className="slide-image" src={fadeImages[2]} />
+            <div className="slide3">
+              <img className="slide-image" src='' />
             </div>
           </div>
         </Fade>

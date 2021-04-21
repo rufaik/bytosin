@@ -1,4 +1,4 @@
-.react-slideshow-container{
+/*.react-slideshow-container{
 	height: 100vh;
 	width: 100vw;
 	overflow:hidden;
@@ -7,7 +7,29 @@
 	align-items: center;
 	justify-content: center;
 }
+*/
 
+
+.slide1{
+	background-image: url("A9.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.slide2{
+	background-image: url("A1.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.slide3{
+	background-image: url("A2.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
 .react-slideshow-container .default-nav:first-of-type {
 
     visibility: hidden;
@@ -18,8 +40,8 @@
 }
 
 .slide-image{
-	width:120vw;
-	height:150%;
+	/*width:120vw;
+	height:150%;*/
 }
 
 .splashFade{
@@ -39,7 +61,7 @@
 	position: absolute;
 	left: 0%;
 	right: 0%;
-	margin: 45vh auto 0 auto;
+	margin: 12vh auto 0 auto;
 	color: black;
 	z-index: 3;
 	text-align: center;
