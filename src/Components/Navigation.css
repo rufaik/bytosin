@@ -103,16 +103,16 @@
 
 .brand {
 	font-size: calc((2 - 1) * 1.2vw + 1rem);
-	font-family: 'Archivo Black', sans-serif;
+	font-family: 'Cormorant Infant', serif;
 }
 
 .brand1 {
 	font-size: calc((2 - 1) * 1.2vw + 1rem);
-	font-family: 'Archivo Black', sans-serif;
+	font-family: 'Cormorant Infant', serif;
 }
 .brand2 {
 	font-size: calc((2 - 1) * 1.2vw + 1rem);
-	font-family: 'Archivo Black', sans-serif;
+	font-family: 'Cormorant Infant', serif;
 }
  
  @media only screen and (max-width: 1100px) {

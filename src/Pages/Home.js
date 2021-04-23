@@ -62,7 +62,7 @@ const Home = () => {
             <div className='productstext'>Products</div></a>
           </div>
         </div>
-         <p className='copyw'>© 2021 by tosin</p>
+         <p className='copyw'>© 2021 by Tosin</p>
       </div>
     </div>
   )

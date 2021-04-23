@@ -26,7 +26,7 @@ const Nav = () => {
 
   return (
   	<div class="navvyarc">
-      <a className="brand" href="/Home"> by tosin </a> 
+      <a className="brand" href="/Home"> by Tosin </a> 
   		
 
   		<input type="checkbox" id="op"></input>

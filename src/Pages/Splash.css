@@ -12,7 +12,8 @@
 
 .slide1{
 	background-image: url("A9.jpg");
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: 100%;
 	background-position: center;
 	height: 100vh;
 }
@@ -66,7 +67,7 @@
 	z-index: 3;
 	text-align: center;
 	font-size: calc((2 - 1) * 1.2vw + 2rem);
-	font-family: 'Archivo Black', sans-serif;
+	font-family: 'Cormorant Infant', serif;
 }
 .rela{
 	position: relative;
