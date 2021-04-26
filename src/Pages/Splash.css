@@ -14,22 +14,25 @@
 	background-image: url("A9.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: center;
+/*	background-position: center;*/
 	height: 100vh;
+	background-position:50% 74%;
 }
 
 .slide2{
 	background-image: url("A1.jpg");
 	background-size: cover;
-	background-position: center;
+/*	background-position: center;
+*/	background-position:50% 56%;
 	height: 100vh;
 }
 
 .slide3{
 	background-image: url("A2.jpg");
 	background-size: cover;
-	background-position: center;
-	height: 100vh;
+/*	background-position: center;
+*/	height: 100vh;
+background-position:50% 86%;
 }
 .react-slideshow-container .default-nav:first-of-type {
 

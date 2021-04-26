@@ -179,9 +179,11 @@
     display: block;
   font-family: 'Cormorant Infant', serif;
     color: #000;
-    font-size: 1.8em;
+    font-size: 1.9em;
     text-align: center;
     text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 .box2:hover {
 	transition: opacity ease 200ms;
@@ -201,9 +203,12 @@
     display: block;
   font-family: 'Cormorant Infant', serif;
     color: #000;
-    font-size: 1.8em;
+    font-size: 1.9em;
     text-align: center;
     text-decoration: none;
+        font-weight: 400;
+        letter-spacing: 3px;
+
 }
 .box3:hover {
 	transition: opacity ease 200ms;
@@ -223,9 +228,12 @@
     display: block;
   font-family: 'Cormorant Infant', serif;
     color: #000;
-    font-size: 1.8em;
+    font-size: 1.9em;
     text-align: center;
     text-decoration: none;
+        font-weight: 400;
+        letter-spacing: 3px;
+
 }
 
 .box4:hover {
@@ -246,9 +254,34 @@
     display: block;
   font-family: 'Cormorant Infant', serif;
     color: #000;
-    font-size: 1.8em;
+    font-size: 1.9em;
     text-align: center;
     text-decoration: none;
+        font-weight: 400;
+        letter-spacing: 3px;
+
 }
 
+@media only screen and (max-width: 600px) {
+  .contenttext {
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .portraitstext {
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .familytext {
+    font-weight: 300;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .productstext {
+    font-weight: 300;
+  }
+}
 

@@ -28,12 +28,15 @@
     font-size: 2.25em;
     text-align: center;
     text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 3px;
 
 }
 
 @media only screen and (max-width: 600px) {
 .header{
 	font-size: 1.6em;
+	font-weight: 300;
 }
 }
 
@@ -75,6 +78,8 @@
 	font-family: 'Cormorant Infant', serif;
     color: #000;
     font-size: 2em;
+    letter-spacing: 3px;
+
 
 }
 
