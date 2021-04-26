@@ -34,6 +34,26 @@
 */	height: 100vh;
 background-position:50% 86%;
 }
+
+@media only screen and (max-width: 600px) {
+.slide1{
+background-position: center;	
+}
+}
+
+@media only screen and (max-width: 600px) {
+.slide2{
+background-position: center;	
+}
+}
+
+@media only screen and (max-width: 600px) {
+.slide3{
+background-position: center;	
+}
+}
+
+
 .react-slideshow-container .default-nav:first-of-type {
 
     visibility: hidden;
