@@ -71,6 +71,7 @@ background-position:50% 86%;
 	text-align: center;
 	font-size: calc((2 - 1) * 1.2vw + 2rem);
 	font-family: 'Cormorant Infant', serif;
+	letter-spacing: 5px;
 }
 .rela{
 	position: relative;
