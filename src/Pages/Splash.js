@@ -25,7 +25,7 @@ const Splash = () => {
   return (
     <div className="rela">
       <div className="slide-container">
-            <div className="splashFade"> </div>
+            <a className="splashFade" href="/Home"> </a>
             
            
 
@@ -33,7 +33,6 @@ const Splash = () => {
 
           <div className="each-fade">
             <div className="slide1">
-              <img className="slide-image" src='' />
             </div>
           </div>
           <div className="each-fade">

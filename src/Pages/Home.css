@@ -265,23 +265,31 @@
 @media only screen and (max-width: 600px) {
   .contenttext {
     font-weight: 300;
+    font-size: 1.35em
   }
 }
 
 @media only screen and (max-width: 600px) {
   .portraitstext {
     font-weight: 300;
+        font-size: 1.35em
+
   }
 }
 
 @media only screen and (max-width: 600px) {
   .familytext {
     font-weight: 300;
+        font-size: 1.35em
+
   }
 }
 @media only screen and (max-width: 600px) {
   .productstext {
     font-weight: 300;
+        font-size: 1.35em;
+        top: 7%;
+
   }
 }
 
