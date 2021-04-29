@@ -61,7 +61,7 @@ const Contact = () => {
 
               <p><b>Contact</b></p>
 
-              <p><b style={{textDecoration:"none"}}>E:</b> <span style={{textDecoration:"underline"}} >tosinalabi@me.com</span></p>
+              <p><b style={{textDecoration:"none"}}>E:</b> <span style={{textDecoration:"underline"}} >info@bytosin.com</span></p>
 
               <p><b>please note:</b> all photos are taken on a Google Pixel 4.</p>
         </div>
