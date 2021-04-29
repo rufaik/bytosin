@@ -59,7 +59,7 @@ const Contact = () => {
                 <p></p>
 
 
-              <p><b>Contact</b></p>
+              <p><b>contact</b></p>
 
               <p><b style={{textDecoration:"none"}}>E:</b> <span style={{textDecoration:"underline"}} >info@bytosin.com</span></p>
 
