@@ -8,7 +8,7 @@ const Splash = () => {
   const fadeImages = [
   './pix/A9.jpg',
   './pix/A1.jpg',
-  './pix/A2.jpg'
+  './pix/A2B.jpg'
   ];
 
   setTimeout(function(){

@@ -3,6 +3,7 @@ import React from 'react';
 // import './App.css';
 // import './Me.css'
 import './Content.css'
+import './Portraits.css'
 // import './Complete.css'
 // import CardList from './CardList'
 // import { main } from './main'
@@ -14,7 +15,8 @@ import {Link} from 'react-router-dom';
 // import { Fade } from 'react-slideshow-image';
 import Nav from '../Components/Nav'
 // import ReactPlayer from 'react-player'
-
+import { IconContext } from "react-icons";
+import { AiOutlineRight, AiOutlineLeft } from 'react-icons/ai';
 
 //   const fadeImages = [
 //   './Images/1.jpeg',
@@ -39,7 +41,7 @@ const Content = () => {
     <Nav />
       <div className="containertosin">
         <div className='headerbox'>
-            <div className='header'>Content</div>
+            <div className='header'>content</div>
         </div>
         <div className='conimgbox'>
             <img className = '' alt='beauty' src="./pix/C1.jpg"/>
@@ -47,9 +49,15 @@ const Content = () => {
             <img className = 'space' alt='beauty' src="./pix/C4.jpg"/>
             <img className = 'space' alt='beauty' src="./pix/C2.jpg"/>
         </div>
-        <a className="arrow" href="/Portraits">
-          <div className='subheader'>Portraits</div>
-            <img className='arrowspace' alt='beauty' src="./right.png"/></a>
+
+
+        <a className="arrowport" href="/Portraits">
+          <div className='subheaderport'>portraits</div>
+            <IconContext.Provider value={{ color: "black", size:"1.8em", className: "arrowspaceport" }}>
+                <div>
+                  <AiOutlineRight />
+                </div>
+              </IconContext.Provider></a>
     </div>
     </div>
   )

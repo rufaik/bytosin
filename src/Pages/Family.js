@@ -14,7 +14,8 @@ import {Link} from 'react-router-dom';
 // import Gold from './Gold'
 // import { Fade } from 'react-slideshow-image';
 import Nav from '../Components/Nav'
-
+import { IconContext } from "react-icons";
+import { AiOutlineRight, AiOutlineLeft } from 'react-icons/ai';
 // import ReactPlayer from 'react-player'
 
 
@@ -41,7 +42,7 @@ const Family = () => {
     <Nav />
       <div className="containertosin">
         <div className='headerbox'>
-            <div className='header'>Family</div>
+            <div className='header'>family</div>
         </div>
         <div className='conimgbox'>
             <img className = '' alt='beauty' src="./pix/F1.jpg"/>
@@ -51,11 +52,19 @@ const Family = () => {
         </div>
        <div className='arrowbox'>
         <a className="arrowport" href="/Portraits">
-            <img className='arrowspaceport' alt='beauty' src="./left.png"/>
-          <div className='subheaderport'>Portraits</div></a>
+            <IconContext.Provider value={{ color: "black", size:"1.8em", className: "arrowspaceport" }}>
+                <div>
+                  <AiOutlineLeft />
+                </div>
+            </IconContext.Provider>     
+          <div className='subheaderport'>portraits</div></a>
         <a className="arrowport" href="/Products">
-          <div className='subheaderport'>Products</div>
-            <img className='arrowspaceport' alt='beauty' src="./right.png"/></a>
+          <div className='subheaderport'>products</div>
+            <IconContext.Provider value={{ color: "black", size:"1.8em", className: "arrowspaceport" }}>
+                <div>
+                  <AiOutlineRight />
+                </div>
+              </IconContext.Provider></a>
       </div>
     </div>
     </div>
