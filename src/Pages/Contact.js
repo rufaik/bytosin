@@ -64,7 +64,7 @@ const Contact = () => {
               <p><b style={{textDecoration:"none"}}>e:</b> <span style={{textDecoration:"underline"}} >info@bytosin.com</span></p>
 
               <p><b>please note:</b> all photos are taken on a</p>
-              <p>on a google pixel 4</p>
+              <p>google pixel 4</p>
         </div>
         <a href="https://instagram.com/tosinalabi?igshid=zz626ehwo1lz">
              <p className='instatext'> @tosinalabi</p>
