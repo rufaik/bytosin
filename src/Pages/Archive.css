@@ -135,3 +135,13 @@
 
 
 
+.ril__navButtonNext {
+    background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIzNCI+PHBhdGggZD0ibTEgMyAyLTIgMTYgMTZMMyAzM2wtMS0xIDE1LTE1TDIgMnoiIGZpbGw9IiNGRkYiLz48L3N2Zz4=) no-repeat 50% !important;
+    right: 0;
+}
+
+
+.ril__navButtonPrev {
+    background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIzNCI+PHBhdGggZD0ibTE5IDMtMi0yTDEgMTdsMTYgMTYgMS0xTDMgMTcgMTggMnoiIGZpbGw9IiNGRkYiLz48L3N2Zz4=) no-repeat 50% !important;
+    left: 0;
+}
