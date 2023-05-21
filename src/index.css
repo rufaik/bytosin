@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   background-color: white;
@@ -12,3 +16,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* https://tailwind-elements.com/docs/standard/getting-started/quick-start/
+ https://markustripp.medium.com/animations-with-tailwind-css-c47534e57a18*/

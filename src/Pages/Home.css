@@ -3,7 +3,98 @@
 	flex-direction: column;
 }
 
+.homeCol{
+  color: white
+}
 
+
+.fullscreen {
+  width: 100%;
+  height: 100vh;
+  padding: 40vh;
+}
+
+.middleAbsolute{
+      position: absolute;
+    /* z-index: 1; */
+      top: 0;
+      left: 0;
+      right: 0;
+}
+
+.middleAbsolute1{
+      position: absolute;
+    /* z-index: 1; */
+      top: 5rem;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+}
+
+.menuIcons{
+  padding: 1rem;
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 500;
+  font-size: 1.1em;
+  color: white
+
+ 
+}
+
+.menuIcons:hover{
+  padding: 1rem;
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 500;
+  font-size: 1.1em; 
+  color: grey;
+}
+
+.menuIconsArchive{
+  padding: 1rem;
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 500;
+  font-size: 1.1em;
+  color: black;
+ 
+}
+
+.menuIconsArchive:hover{
+  padding: 1rem;
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 500;
+  font-size: 1.1em; 
+  color: grey;
+}
+
+
+a{
+
+  text-decoration: none
+}
+
+/*a:hover {
+  color: black;
+}*/
+
+.middleAbsoluteBottom{
+      position: absolute;
+    /* z-index: 1; */
+      bottom: 0;
+      left: 0;
+      right: 0;
+}
+
+
+.bgHome {
+  background-image: url("b4.jpg"); /* The image used */
+/*  background-color: #cccccc;  Used if the image is unavailable 
+*/  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
 
 
 .row1{
@@ -291,5 +382,33 @@
         top: 8%;
 
   }
+}
+
+
+
+
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.reveal1{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal1.active{
+  transform: translateY(0);
+  opacity: 1;
 }
 

@@ -10,12 +10,13 @@ import './Contact.css'
 // import { main } from './main'
 // import LogoHeader from './Logo header'
 // import Navigation from './Navigation'
-import 'tachyons';
+// import 'tachyons';
 import {Link} from 'react-router-dom';
 // import Gold from './Gold'
 // import { Fade } from 'react-slideshow-image';
 import NavContact from '../Components/NavContact'
 // import ReactPlayer from 'react-player'
+import { BsInstagram } from "react-icons/bs";
 
 
 //   const fadeImages = [
@@ -31,7 +32,7 @@ import NavContact from '../Components/NavContact'
 //   indicators: false,
 //   arrows: false,
 //   onChange: (oldIndex, newIndex) => {
-//     console.log(`fade transition from ${oldIndex} to ${newIndex}`);
+//     console.log(`f ade transition from ${oldIndex} to ${newIndex}`);
 //   }
 // }
 
@@ -41,33 +42,32 @@ const Contact = () => {
     <NavContact />
       <div className="containertosin">
         <div className='contactbox'>
-            <img className='contactimage' alt='beauty' src="./0x-min.jpg"/>
+            <img className='contactimage' alt='beauty' src="./con.jpg"/>
 
         </div>
         <div className='contacttext'>
-             <p><b>tosin.</b> </p>
+             <p className="font-semibold">tosin.</p>
 
-                <p>the fro is real</p>
+                <p>the fro is real.</p>
 
-                <p>you can catch me at the gallery, theatre or charity shop</p>
+                <p>you can catch me at the gallery, theatre or charity shop.</p>
 
-                <p>have a thing for glitter socks</p>
+                <p>have a thing for glitter socks.</p>
 
-                <p>the moon is an absolute fave</p>
+                <p>the moon is an absolute fave.</p>
 
-                <p>my mates either call me quirky or bougie but you can decide when you meet me</p>
-                <p></p>
+            
 
 
-              <p><b>contact</b></p>
+              <p className="font-semibold">contact</p>
 
-              <p><b style={{textDecoration:"none"}}>e:</b> <span style={{textDecoration:"underline"}} ><a href="mailto:info@bytosin.com">info@bytosin.com</a></span></p>
+              <p style={{textDecoration:"none"}}>e: <span style={{textDecoration:"underline"}} ><a href="mailto:info@bytosin.com">tosinalabi@me.com</a></span></p>
 
-              <p><b>please note:</b> all photos are taken on a</p>
-              <p>google pixel 4</p>
+              <p>please note: all photos are taken on a</p>
+              <p>google pixel </p>
         </div>
-        <a href="https://instagram.com/tosinalabi?igshid=zz626ehwo1lz">
-             <p className='instatext'> @tosinalabi</p>
+        <a href="https://instagram.com/tosinalabi?igshid=zz626ehwo1lz" className="flex justify-center">
+             <BsInstagram size="1.5rem"/>
           </a>
 
     </div>

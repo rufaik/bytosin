@@ -9,7 +9,7 @@ import './Portraits.css'
 // import { main } from './main'
 // import LogoHeader from './Logo header'
 // import Navigation from './Navigation'
-import 'tachyons';
+// import 'tachyons';
 import {Link} from 'react-router-dom';
 // import Gold from './Gold'
 // import { Fade } from 'react-slideshow-image';

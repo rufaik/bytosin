@@ -14,9 +14,9 @@
 
 .arcrow{
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	height:50vh;
+	flex-direction: column;
+
+  width: 50%
 
 }
 
@@ -27,8 +27,41 @@
 }
 
 
+/*@keyframes slideUp {
+  from {
+    transform: translateY(150px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}*/
+
+
 .image {
-    width: 28%;
+    width: 100%;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
+    cursor: pointer;
+  
+/* animation: slideUp 1s ease forwards;
+    */
+}
+
+/*.animate{
+}
+
+.show{
+   animation: slideUp 1s ease forwards;
+
+}*/
+
+[data-inviewport] { /* THIS DEMO ONLY */
+    width: 90%;
     overflow:hidden;
     display: flex;
     align-items: center;
@@ -39,11 +72,41 @@
     opacity: 0.8;
 }
 
+/* inViewport */
 
-.image:hover {
+[data-inviewport="scale-in"] { 
+  transition: 5s;
+  transform: translateY(0px);
+}
+[data-inviewport="scale-in"].is-inViewport { 
+  transform: translateY(150px);
+}
+
+[data-inviewport="fade-rotate"] { 
+  transition: 2s;
+  opacity: 0;
+}
+[data-inviewport="fade-rotate"].is-inViewport { 
+  transform: rotate(180deg);
+  opacity: 1;
+}
+
+/*.image:hover {
 	    transition: opacity ease 200ms;
 	opacity: 1;
 }
+*/
+
+
+.image .animate {
+/*    -webkit-transform: translateY(150px);
+    transform: translateY(150px);
+    -webkit-animation: moveUp 1s ease forwards;
+    animation: moveUp 1s ease forwards;*/
+
+   
+}
+
 
 @media only screen and (max-width: 1100px) {
   .arcrow {

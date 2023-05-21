@@ -10,7 +10,7 @@ import './Navigation.css'
 // import { main } from './main'
 // import LogoHeader from './Logo header'
 // import Navigation from './Navigation'
-import 'tachyons';
+// import 'tachyons';
 import {Link} from 'react-router-dom';
 // import Logo from './Logo'
 // import './Logo.css';
@@ -25,25 +25,16 @@ const Nav = () => {
 
 
   return (
-  	<div class="navvy">
-  		<a className="brand1" href="/Home"> by Tosin </a> 
-
-  		<input type="checkbox" id="op"></input>
-<div class="lower">
-  <label for="op">
-  <div className='wg1'></div>
-  			<div className='wg1'></div>
-  			</label>
-</div>
-<div class="overlay overlay-hugeinc">
-      <label for="op"></label>
-      <nav>
-        <Partners />
-      </nav>
-</div>
+  	<div class="">
+         <a href="/" className="white" ><p className="brand1 middleAbsolute pt-8"> by tosin </p></a>
+      <div className=" middleAbsolute1 pt-2">
+        <a className="menuIcons" href="/Humans">humans</a>
+        <a className="menuIcons" href="/Archive">archive</a>
+        <a className="menuIcons" href="/Contact">contact</a>
+      </div> 	
 
 
-</div>
+    </div>
 
 )}
 

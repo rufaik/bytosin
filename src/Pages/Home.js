@@ -7,8 +7,7 @@ import './Home.css'
 // import CardList from './CardList'
 // import { main } from './main'
 // import LogoHeader from './Logo header'
-// import Navigation from './Navigation'
-import 'tachyons';
+
 import {Link} from 'react-router-dom';
 // import Gold from './Gold'
 // import { Fade } from 'react-slideshow-image';
@@ -35,23 +34,25 @@ import Nav from '../Components/Nav'
 
 const Home = () => {
   return (
-    <div>
-    <Nav />
-      <div className="pt3  containertosin">
+    <div className=" fullscreen bgHome homeCol" >
+   <Nav />
 
+
+  
+{/*
         <div className='row1'>
           <div className='box1 box'><a href="/Content">
             <img className = 'content imagebox' alt='friends' src="./1-min.jpg"/>
             <div className='contenttext'>content</div></a>
-          </div>
+          </div> 
           <div className='box2 box'><a href="/Portraits">
             <img className = 'portraits imagebox' alt='beauty' src="./6-min.jpg"/>
             <div className='portraitstext'>portraits</div></a>
           </div>
-        </div>
+        </div>*/}
 
 
-        <div className='row2'>
+{/*        <div className='row2'>
         
           <div className='box3 box'><a href="/Family">
             <img className = 'family imagebox' alt='mama' src="./11-min.jpg"/>
@@ -61,9 +62,11 @@ const Home = () => {
             <img className = 'products imagebox' alt='towels' src="./image.jpg.png"/>
             <div className='productstext'>products</div></a>
           </div>
-        </div>
-         <p className='copyw'>© 2021 by Tosin</p>
-      </div>
+        </div>*/}
+
+
+         <p className='middleAbsoluteBottom pb-8'>© 2021 by Tosin</p>
+    
     </div>
   )
 }

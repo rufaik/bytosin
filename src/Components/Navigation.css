@@ -6,7 +6,17 @@
 
 }
 
+.largeMargin10{
+	margin-bottom: 10rem;
+}
+
+.navvy1{
+	position: absolute;
+
+}
+
 .navvy{
+	position: absolute;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -113,6 +123,7 @@
 	font-family: 'Cormorant Infant', serif;
 	font-weight: 400;
     letter-spacing: 5px;
+
 }
 .brand2 {
 	font-size: calc((2 - 1) * 1.2vw + 1rem);

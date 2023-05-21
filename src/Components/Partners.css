@@ -155,17 +155,6 @@ border-bottom: solid;
 }
 
 
-a{
-	color: black;
-	text-decoration: none
-}
-
-a:hover {
-  color: black;
-  text-decoration: none
-}
-
-
 @media screen and (max-width: 700px) {
   .Pc1 {
      height: 42em;

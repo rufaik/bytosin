@@ -10,13 +10,12 @@ import './App.css';
 // import Adidas from './Adidas'
 // import Gold from './Gold'
 import Home from './Pages/Home'
-import Content from './Pages/Content'
+import Humans from './Pages/Humans'
 import Portraits from './Pages/Portraits'
 import Family from './Pages/Family'
 import Products from './Pages/Products'
 import Contact from './Pages/Contact'
 import Archive from './Pages/Archive'
-import Splash from './Pages/Splash'
 import Test from './Pages/Test'
 // import ThankYou from './ThankYou'
 // import Work from './Work'
@@ -37,15 +36,13 @@ const App = () => {
     <BrowserRouter>
   <Switch>
   
-      <Route path ={"/Home"} component={Home} />
-      <Route exact path ={"/"} component={Splash} />
-      <Route exact path ={"/Content"} component={Content} />
+      <Route exact path ={"/"} component={Home} />
+      <Route exact path ={"/Humans"} component={Humans} />
       <Route exact path ={"/Portraits"} component={Portraits} />
       <Route exact path ={"/Family"} component={Family} />
       <Route exact path ={"/Products"} component={Products} />
       <Route exact path ={"/Contact"} component={Contact} />
       <Route exact path ={"/Archive"} component={Archive} />
-      <Route exact path ={"/Splash"} component={Splash} />
       <Route exact path ={"/Test"} component={Test} />
      
 
