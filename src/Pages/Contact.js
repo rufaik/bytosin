@@ -66,7 +66,7 @@ const Contact = () => {
               <p>please note: all photos are taken on a</p>
               <p>google pixel </p>
         </div>
-        <a href="https://instagram.com/tosinalabi?igshid=zz626ehwo1lz" className="flex justify-center">
+        <a href="https://instagram.com/tosinalabi?igshid=zz626ehwo1lz" className="flex justify-center mb-16">
              <BsInstagram size="1.5rem"/>
           </a>
 
